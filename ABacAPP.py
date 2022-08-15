@@ -41,7 +41,7 @@ if selected == "Home":
 	st.write("\n")
 	st.write("\n")
 	st.write("\n")
-	st.markdown("<h6 style='text-align: justify; color: white;'> Refer to **article link** for more details. Please cite ABacAPP as ****** if you used ABacPP in your researh</h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: white;'> Refer to **article link** for more details. Please cite ABacAPP as ****** if you used ABacPP in your research</h6>", unsafe_allow_html=True)
 
 	
 if selected == "Run ABacAPP":
