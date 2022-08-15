@@ -189,6 +189,7 @@ if selected == "Batch Mode":
 		return df.to_csv(index=False, header=None).encode('utf-8')
 			
 	if uploaded_file is None:
+                st.write(f"Waiting for user input")
 		sample = pd.read_csv('sample_batch_input.csv', sep=',', header=None)
 		sample_csv = convert_df(sample)
 		col1, col2, col3 = st.columns([2.5,8,1])
@@ -215,10 +216,10 @@ if selected == "Batch Mode":
 if selected == "About":
 	st.write("\n")
 	st.write("\n")
-	st.markdown("""<h6 style='display: block; text-align: justify; color: #C0C0C0;'> ABacAPP is developed and maintained by Naeem A. at <a href="http://ynlab.mu.edu.tr/tr/naeem-abdul-ghafoor-6985">YNLab</a> in the Department of Molecular Biology and Genetics at Mugla Sitki Kocman University, Mugla, Turkey. </h6>""", unsafe_allow_html=True)
+	st.markdown("""<h6 style='display: block; text-align: justify; color: #C0C0C0;'> ABacAPP is developed and maintained by Naeem A. at <a href="http://ynlab.mu.edu.tr/">YNLab</a> in the Department of Molecular Biology and Genetics at Mugla Sitki Kocman University, Mugla, Turkey. </h6>""", unsafe_allow_html=True)
 	st.write('\n')
 	
-	st.markdown("""<h6 style='text-align: justify; color: #C0C0C0;'> The development of ABacAPP was funded by the The Scientific and Technological Research Institution of Turkey (TUBITAK) under the project number 122E082 and supervised by <a href="https://www.mu.edu.tr/tr/personel/omurbaysal">Prof. Dr. Omur Baysal</a> from the Molecular Microbiology Laboratory at the Department of Molecular Biology and Genetics, Faculty of Science, Mugla Sitki Kocman University, Mugla, Turkey. The numerical calculations that lead to the development of ABacAPP were partially performed at TUBITAK ULAKBIM, High Performance and Grid Computing Center (TRUBA resources). The authors/developers are grateful for TUBITAK and TRUBA for the funding and resources they've provided.</h6>""", unsafe_allow_html=True)
+	st.markdown("""<h6 style='text-align: justify; color: #C0C0C0;'> The development of ABacAPP was funded by the The Scientific and Technological Research Institution of Turkey (TUBITAK) under the project number 122E082 and supervised by <a href="https://www.mu.edu.tr/tr/personel/omurbaysal">Prof. Dr. Omur Baysal</a> from the Molecular Microbiology Laboratory at the Department of Molecular Biology and Genetics, Faculty of Science, Mugla Sitki Kocman University, Mugla, Turkey. The numerical calculations that lead to the development of ABacAPP were partially performed at TUBITAK ULAKBIM, High Performance and Grid Computing Center (TRUBA resources). The authors/developers are grateful to TUBITAK and TRUBA for the funding and resources they've provided.</h6>""", unsafe_allow_html=True)
 	st.write('\n')
 
 	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is licensed under the MIT License Copyright (c) 2022 Naeem A., Email to merzanaeem007 [at] gmail.com to report any bugs or recommend further features/developments. </h6>", unsafe_allow_html=True)
