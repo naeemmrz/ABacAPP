@@ -221,7 +221,7 @@ if selected == "About":
 	st.markdown("""<h6 style='text-align: justify; color: #C0C0C0;'> The development of ABacAPP was funded by the The Scientific and Technological Research Institution of Turkey (TUBITAK) under the project number 122E082 and supervised by <a href="https://www.mu.edu.tr/tr/personel/omurbaysal">Prof. Dr. Omur Baysal</a> from the Molecular Microbiology Laboratory at the Department of Molecular Biology and Genetics, Faculty of Science, Mugla Sitki Kocman University, Mugla, Turkey. The numerical calculations that lead to the development of ABacAPP were partially performed at TUBITAK ULAKBIM, High Performance and Grid Computing Center (TRUBA resources). The authors/developers are grateful for TUBITAK and TRUBA for the funding and resources they've provided.</h6>""", unsafe_allow_html=True)
 	st.write('\n')
 
-	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is licensed under the MIT License Copyright (c) 2022 Naeem A., Email to merzanaeem007[at]gmail.com to report any bugs or recommend further features/developments. </h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is licensed under the MIT License Copyright (c) 2022 Naeem A., Email to merzanaeem007 [at] gmail.com to report any bugs or recommend further features/developments. </h6>", unsafe_allow_html=True)
 	st.write('\n')
 	st.write('\n')
 	
