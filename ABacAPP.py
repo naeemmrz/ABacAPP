@@ -189,7 +189,7 @@ if selected == "Batch Mode":
 		return df.to_csv(index=False, header=None).encode('utf-8')
 			
 	if uploaded_file is None:
-                st.write(f"Waiting for user input")
+		st.write(f"Waiting for user input")
 		sample = pd.read_csv('sample_batch_input.csv', sep=',', header=None)
 		sample_csv = convert_df(sample)
 		col1, col2, col3 = st.columns([2.5,8,1])
