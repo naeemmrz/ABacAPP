@@ -6,7 +6,7 @@ import streamlit as st
 import streamlit_option_menu
 from streamlit_option_menu import option_menu
 
-st.set_page_config(page_title='ABacAPP', page_icon=PIL.Image.open('logo.png'), layout='wide', initial_sidebar_state='auto')
+st.set_page_config(page_title='ABacAPP', page_icon=PIL.Image.open('logo.png'))
 
 selected = option_menu(menu_title=None,
 			options=["Home", "Run ABacAPP", "Batch Mode", "About"],
