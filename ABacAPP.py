@@ -24,7 +24,7 @@ if selected == "Home":
 		st.image(image, caption=None, use_column_width=True, width=500)
 	with col3:
 		st.write("")
-	st.markdown("<h4 style='text-align: center; color: white;'> ABacAPP: Anti-Bacterial Agent Potency Predictor</h4>", unsafe_allow_html=True)
+	st.markdown("<h4 style='text-align: center; color: white;'> ABacAPP: Anti-BACterial Agent Potency Predictor</h4>", unsafe_allow_html=True)
 	st.write("\n")
 	st.write("\n")
 	
