@@ -222,4 +222,4 @@ if selected == "About":
 	st.write('\n')
 	st.write('\n')
 	
-	st.markdown("<h6 style='text-align: justify; color: white;'> Please cite ABacAPP as ''''pending'''' if you have used it in your research and/or provide credits to the orginal APP/authors if used for any other purpose.\n </h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: white;'> Please cite ABacAPP as ''''pending'''' if you have used it in your research and/or provide credits to the orginal App/authors if used for any other purpose.\n </h6>", unsafe_allow_html=True)
