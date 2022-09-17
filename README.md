@@ -1,5 +1,5 @@
 <div style="text-align: center"> 
-### ABacAPP: Anti-BACterial Agent Potency Predictor
+ABacAPP: Anti-BACterial Agent Potency Predictor
 </div>
 
 <p align="center">
