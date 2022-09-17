@@ -1,6 +1,4 @@
-<div style="text-align: center"> 
-ABacAPP: Anti-BACterial Agent Potency Predictor
-</div>
+## ABacAPP: Anti-BACterial Agent Potency Predictor
 
 <p align="center">
 <img src="https://github.com/naeemmrz/ABacAPP/blob/main/logo.png?raw=true" />
