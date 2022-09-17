@@ -5,7 +5,7 @@
 </p>
 
 <div style="text-align: justify"> 
-ABacAPP is a machine learning-based web application capable of predicting the antibacterial potency of any compound against β-lactamases (including β-lactamase, AmpC, Bla2, KPC-2, TEM-1, BRO-1, Class C, Class D, Type II, L1, NDM-1, SHV-1, SHV-5, OXA-1, and Metallo β-lactamase 1 and 2), DNA Gyrases (including DNA Gyrase, GyraseA, and GyraseB), Bacterial Dihydrofolate Reductases, and Penicillin-Binding Proteins (inlcuding 1B, 2, 2B, 2X, MecA, and D-alanyl-D-alanine carboxypeptidase).
+ABacAPP is a machine learning-based web application capable of predicting the antibacterial potency of any compound against β-lactamases (including β-lactamase, AmpC, Bla2, KPC-2, TEM-1, BRO-1, Class C, Class D, Type II, L1, NDM-1, SHV-1, SHV-5, OXA-1, and Metallo β-lactamase 1 and 2), DNA Gyrases (including DNA Gyrase, GyraseA, and GyraseB), Bacterial Dihydrofolate Reductases, and Penicillin-Binding Proteins (including 1B, 2, 2B, 2X, MecA, and D-alanyl-D-alanine carboxypeptidase).
 </div>
 
 ## Authors
