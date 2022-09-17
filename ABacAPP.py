@@ -31,17 +31,17 @@ if selected == "Home":
 	st.write("\n")
 	st.write("\n")
 	
-	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is machine learning-based web application capable of predicting the antibacterial potency of any compound (as IC50 values) against β-lactamases (inlcluding β-lactamase, AmpC, Bla2, KPC-2, TEM-1, BRO-1, Class C, Class D, Type II, L1, NDM-1, SHV-1, SHV-5, OXA-1, and Metallo β-lactamase 1 and 2), DNA Gyrases (inlcluding DNA Gyrase, GyraseA, and GyraseB), Bacterial Dihydrofolate Reductases, and Penicillin-Binding Proteins (inlcuding 1B, 2, 2B, 2X, MecA, and D-alanyl-D-alanine carboxypeptidase). </h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is a machine learning-based web application capable of predicting the antibacterial potency of any compound against β-lactamases (inlcluding β-lactamase, AmpC, Bla2, KPC-2, TEM-1, BRO-1, Class C, Class D, Type II, L1, NDM-1, SHV-1, SHV-5, OXA-1, and Metallo β-lactamase 1 and 2), DNA Gyrases (inlcluding DNA Gyrase, GyraseA, and GyraseB), Bacterial Dihydrofolate Reductases, and Penicillin-Binding Proteins (inlcuding 1B, 2, 2B, 2X, MecA, and D-alanyl-D-alanine carboxypeptidase). </h6>", unsafe_allow_html=True)
 	st.write("\n")
 	
-	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> To use the APP, click the ''Run ABacAPP'' tab and enter the SMILE representation of the target compound in the appropriate field. Futhermore, to run prediction for several compounds at one, click the ''Batch Mode'' tab and upload CSV file with smiles in the first column and identifiers (arbitrary but necessary to run the application) in the second column (without headers or index column), a template is available for download in the respective tab.\n </h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> To use the app, click the ''Run ABacAPP'' tab on the top of the page and enter the SMILES representation of the target compound in the appropriate field. Futhermore, to run prediction for several compounds at one, click the ''Batch Mode'' tab and upload CSV file with smiles in the first column and identifiers (arbitrary but necessary to run the application) in the second column (without headers or index column), a template is available for download in the respective tab.\n </h6>", unsafe_allow_html=True)
 	st.write("\n")
 	
 	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> The β-lactamases model is based on the Random Forest regressor and the Klekota Roth Count features (shape=4860), the model was trained on 2045 datapoints and achives R², MSE, RMSE, and MAE of 0.87, 0.42, 0.65, and 0.44 respectively.\n The DNA Gyrases model is based on the K-Nearest Neighbors regressor and the Circular Fingerprint features (radius=2 and shape=1024), the model was trained on 813 datapoints and achives R², MSE, RMSE, and MAE of 0.82, 0.67, 0.80, and 0.36 respectively.\n The Bacterial Dihydrofolate Reductase model is based on the Random Forest regressor and the Klekota Roth Count features (shape=4860), the model was trained on 306 datapoints and achives R², MSE, RMSE, and MAE of 0.81, 0.74, 0.82, and 0.54 respectively.\n The Penicillin-Binding Proteins model is based on the Extra Trees regressor and the Substructure Fingerprint Count features (shape=307), the model was trained on 132 datapoints and achives R², MSE, RMSE, and MAE of 0.88, 0.22, 0.44, and 0.24 respectively (All benchmarks are for LOOCV on the test set with CV=10).\n </h6>", unsafe_allow_html=True)
 	st.write("\n")
 	st.write("\n")
 	st.write("\n")
-	st.markdown("<h6 style='text-align: justify; color: white;'> Refer to **article link** for more details. Please cite ABacAPP as ****** if you used ABacAPP in your research</h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: white;'> Refer to **article link** for more details. Please cite ABacAPP as ''''pending'''' if you have used it in your research and/or provide credits to the orginal App/authors if used for any other purpose.\n </h6>", unsafe_allow_html=True)
 
 	
 if selected == "Run ABacAPP":
@@ -215,14 +215,14 @@ if selected == "Batch Mode":
 if selected == "About":
 	st.write("\n")
 	st.write("\n")
-	st.markdown("""<h6 style='display: block; text-align: justify; color: #C0C0C0;'> ABacAPP is developed and maintained by Naeem A. at <a href="http://ynlab.mu.edu.tr/">YNLab</a> in the Department of Molecular Biology and Genetics at Mugla Sitki Kocman University, Mugla, Turkey. </h6>""", unsafe_allow_html=True)
+	st.markdown("""<h6 style='display: block; text-align: justify; color: #C0C0C0;'> ABacAPP is developed and maintained by Naeem A. from <a href="http://ynlab.mu.edu.tr/">YNLab</a> at the Department of Molecular Biology and Genetics, Mugla Sitki Kocman University, Mugla, Turkey. </h6>""", unsafe_allow_html=True)
 	st.write('\n')
 	
 	st.markdown("""<h6 style='text-align: justify; color: #C0C0C0;'> The development of ABacAPP was funded by the The Scientific and Technological Research Institution of Turkey (TUBITAK) under the project number 122E082 and supervised by <a href="https://www.mu.edu.tr/tr/personel/omurbaysal">Prof. Dr. Omur Baysal</a> from the Molecular Microbiology Laboratory at the Department of Molecular Biology and Genetics, Faculty of Science, Mugla Sitki Kocman University, Mugla, Turkey. The numerical calculations that lead to the development of ABacAPP were partially performed at TUBITAK ULAKBIM, High Performance and Grid Computing Center (TRUBA resources). The authors/developers are grateful to TUBITAK and TRUBA for the funding and resources they've provided.</h6>""", unsafe_allow_html=True)
 	st.write('\n')
 
-	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is licensed under the MIT License Copyright (c) 2022 Naeem A., Email to merzanaeem007 [at] gmail.com to report any bugs or recommend further features/developments. </h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: #C0C0C0;'> ABacAPP is licensed under the MIT License Copyright (c) 2022 Naeem A., Email to merzanaeem007 [at] gmail.com to report any bugs or recommend further features/improvments. </h6>", unsafe_allow_html=True)
 	st.write('\n')
 	st.write('\n')
 	
-	st.markdown("<h6 style='text-align: justify; color: white;'> Please cite ABacAPP as ''''pending'''' if you have used it in your research and/or provide credits to the orginal App/authors if used for any other purpose.\n </h6>", unsafe_allow_html=True)
+	st.markdown("<h6 style='text-align: justify; color: white;'> Refer to **article link** for more details. Please cite ABacAPP as ''''pending'''' if you have used it in your research and/or provide credits to the orginal App/authors if used for any other purpose.\n </h6>", unsafe_allow_html=True)
