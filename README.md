@@ -11,7 +11,7 @@ ABacAPP is a machine learning-based web application capable of predicting the an
 ## Authors
 **Naeem Abdul Ghafoor¹²³** & **Omur Baysal³**
 ###### ¹Universidad Autónoma de Barcelona, 08193 Cerdanyola, Spain.
-###### ²Faculty of Biology, University of Barcelona, 08028 Barcelona, Spain
+###### ²Faculty of Biology, University of Barcelona, 08028 Barcelona, Spain.
 ###### ³Mugla Sitki Kocman University, Faculty of Science, Department of Molecular Biology and Genetics, Mugla, Turkey.
 ###### [Click Here For The Corresponding Article](https://)
 
