@@ -17,7 +17,7 @@ ABacAPP is a machine learning-based web application capable of predicting the an
 
 
 ## Usage
-## [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://naeemmrz-abacapp-abacapp-qpjwr6.streamlitapp.com)
+## [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ynlab-ppacaba.streamlitapp.com)
 - Click on the "Open in Streamlit" badge above. 
 - Enter the SMILE for the compound of your interest.
 - Predicted IC50 will be printed out within a few seconds.
