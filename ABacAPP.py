@@ -84,7 +84,7 @@ if selected == "Run ABacAPP":
 		return features
 	def pIC50_2_mM(pIC50):
 		from math import e
-		ic50_mM = float( e ** (-pIC50)) * (10 ** 9) * (10 ** -6)
+		ic50_mM = float( 10 ** (-pIC50)) * (10 ** 9) * (10 ** -6)
 		return ic50_mM
 		
 	BL_Model = pickle.load(open('models/BL_KrF_RF.pkl', 'rb'))
