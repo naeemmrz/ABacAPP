@@ -84,8 +84,8 @@ if selected == "Run ABacAPP":
 		return features
 	def pIC50_2_mM(pIC50):
 		from math import e
-		ic50_nM = float( e ** (-pIC50)) * (10 ** 9)
-		return ic50_nM
+		ic50_mM = float( e ** (-pIC50)) * (10 ** 9) * (10 ** -6)
+		return ic50_mM
 		
 	BL_Model = pickle.load(open('models/BL_KrF_RF.pkl', 'rb'))
 	DR_Model = pickle.load(open('models/DR_KrF_RF.pkl', 'rb'))
@@ -101,10 +101,10 @@ if selected == "Run ABacAPP":
 		st.stop()
 	st.write('\n')
 	st.write('\n')	
-	st.write(f"Predicted IC50 against β-lactamase:                      {round(pIC50_2_mM(BL_pIC50), 3)} nM")
-	st.write(f"Predicted IC50 against acterial Dihydrofolate Reductase: {round(pIC50_2_mM(DR_pIC50), 3)} nM")
-	st.write(f"Predicted IC50 against DNA Gyrase:                       {round(pIC50_2_mM(GY_pIC50), 3)} nM")
-	st.write(f"Predicted IC50 against Penicillin-Binding Proteine:      {round(pIC50_2_mM(NPN_pIC50), 3)} nM")
+	st.write(f"Predicted IC50 against β-lactamase:                      {round(pIC50_2_mM(BL_pIC50), 3)} mM")
+	st.write(f"Predicted IC50 against acterial Dihydrofolate Reductase: {round(pIC50_2_mM(DR_pIC50), 3)} mM")
+	st.write(f"Predicted IC50 against DNA Gyrase:                       {round(pIC50_2_mM(GY_pIC50), 3)} mM")
+	st.write(f"Predicted IC50 against Penicillin-Binding Proteine:      {round(pIC50_2_mM(NPN_pIC50), 3)} mM")
 	
 if selected == "Batch Mode":
 	st.title(f"Welcome to ABacAPP - Batch Mode")
