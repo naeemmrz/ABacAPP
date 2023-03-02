@@ -102,7 +102,7 @@ if selected == "Run ABacAPP":
 	st.write('\n')
 	st.write('\n')	
 	st.write(f"Predicted IC50 against β-lactamase:                      {round(pIC50_2_mM(BL_pIC50), 3)} µM")
-	st.write(f"Predicted IC50 against acterial Dihydrofolate Reductase: {round(pIC50_2_mM(DR_pIC50), 3)} µM")
+	st.write(f"Predicted IC50 against bacterial Dihydrofolate Reductase: {round(pIC50_2_mM(DR_pIC50), 3)} µM")
 	st.write(f"Predicted IC50 against DNA Gyrase:                       {round(pIC50_2_mM(GY_pIC50), 3)} µM")
 	st.write(f"Predicted IC50 against Penicillin-Binding Proteine:      {round(pIC50_2_mM(NPN_pIC50), 3)} µM")
 	
